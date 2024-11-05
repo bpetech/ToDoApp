@@ -55,7 +55,6 @@ cd ToDoApp
 Proje içinde yer alan API'ler aşağıdaki gibidir:
 
 - **GET /api/todo/GetAll**: Tüm görevleri getirir.
-- **GET /api/todo/GetById/{id}**: Belirtilen ID'ye sahip görevi getirir.
 - **POST /api/todo/Create**: Yeni bir görev oluşturur.
 - **PUT /api/todo/Update/{id}**: Mevcut görevi günceller.
 - **DELETE /api/todo/Delete/{id}**: Belirtilen ID'ye sahip görevi siler.
