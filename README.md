@@ -59,3 +59,6 @@ Proje içinde yer alan API'ler aşağıdaki gibidir:
 - **POST /api/todo/Create**: Yeni bir görev oluşturur.
 - **PUT /api/todo/Update/{id}**: Mevcut görevi günceller.
 - **DELETE /api/todo/Delete/{id}**: Belirtilen ID'ye sahip görevi siler.
+
+![image](https://github.com/user-attachments/assets/23c1f4ea-171b-4670-965d-3c8d68e5453d)
+
