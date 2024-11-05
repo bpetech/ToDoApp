@@ -30,7 +30,7 @@ Bu projede aşağıdaki teknolojiler ve araçlar kullanılmıştır:
 
 Projeyi yerel ortamınızda çalıştırmak için aşağıdaki adımları izleyin.
 
-### 1. Depoyu Klonlayın
+### Projeyi klonlayın
 ```
 git clone https://github.com/kullanici-adi/ToDoApp.git
 cd ToDoApp
