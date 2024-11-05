@@ -34,3 +34,28 @@ Projeyi yerel ortamınızda çalıştırmak için aşağıdaki adımları izleyi
 ```
 git clone https://github.com/kullanici-adi/ToDoApp.git
 cd ToDoApp
+```
+## Kullanım
+
+### ToDo Uygulamasında Görev Eklemek, Güncellemek ve Silmek
+
+- **Görev Ekleme**: Görev başlığı ve açıklaması girilerek "Görev Ekle" butonuna basılır.
+- **Görev Güncelleme**: Bir görevi tamamlamak için ilgili checkbox işaretlenir veya kaldırılır.
+- **Görev Silme**: Silmek istediğiniz görevin sağında bulunan çöp kutusu ikonuna tıklayın.
+
+### Önemli Notlar
+
+- Uygulama, boş başlık veya açıklama ile görev eklemeyi önlemektedir. Boş veri girilirse bir uyarı bildirimi görüntülenir.
+- Görevler checkbox ile işaretlendiğinde tamamlanmış olarak işaretlenir ve gri renge döner.
+
+---
+
+## API Endpoints
+
+Proje içinde yer alan API'ler aşağıdaki gibidir:
+
+- **GET /api/todo/GetAll**: Tüm görevleri getirir.
+- **GET /api/todo/GetById/{id}**: Belirtilen ID'ye sahip görevi getirir.
+- **POST /api/todo/Create**: Yeni bir görev oluşturur.
+- **PUT /api/todo/Update/{id}**: Mevcut görevi günceller.
+- **DELETE /api/todo/Delete/{id}**: Belirtilen ID'ye sahip görevi siler.
